@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data and model files
+*.csv
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
+
+# Environment
+.env
