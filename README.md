@@ -21,9 +21,9 @@ uv pip install -e .
 mkdir -p data/train data/test
 ```
 
-Çü¿Õ¡¤ë’KÕgån4@kMnWfO`UD
+Place your data files manually:
 - `data/train/pick_train_all.csv`
-- `data/test/Hawks_cãÇü¿Þ¹¿ü - ver 5.0 csvú›(.csv`
+- `data/test/Hawks_æ­£è§£ãƒ‡ãƒ¼ã‚¿ãƒžã‚¹ã‚¿ãƒ¼ - ver 5.0 csvå‡ºåŠ›ç”¨.csv`
 
 ## Training
 
@@ -31,4 +31,4 @@ mkdir -p data/train data/test
 python train_base.py
 ```
 
-âÇëo `best_model.pt` hWfÝXUŒˆ,Pœo `test_with_preds.csv` kú›UŒ~Y
+Model will be saved as `best_model.pt` and predictions will be output to `test_with_preds.csv`.
